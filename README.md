@@ -1,9 +1,15 @@
 # Ahrefs Site Explorer 測試網站
 
+目前的公開網址：
+
+```text
+https://ca1andppi-creator.github.io/
+```
+
 這個目錄可以直接發佈到 GitHub Pages 的使用者首頁：
 
 ```text
-https://你的GitHub帳號.github.io/
+https://ca1andppi-creator.github.io/
 ```
 
 ## 1. 在 GitHub 建立 repository
@@ -11,7 +17,7 @@ https://你的GitHub帳號.github.io/
 登入 GitHub，建立一個 **Public** repository，名稱必須是：
 
 ```text
-你的GitHub帳號.github.io
+ca1andppi-creator.github.io
 ```
 
 例如 GitHub 帳號是 `alice`，repository 名稱就是：
@@ -32,7 +38,7 @@ git config user.name "你的名字"
 git config user.email "你的GitHub驗證Email"
 git add .
 git commit -m "Create Ahrefs test site"
-git remote add origin https://github.com/你的GitHub帳號/你的GitHub帳號.github.io.git
+git remote add origin https://github.com/ca1andppi-creator/ca1andppi-creator.github.io.git
 git push -u origin main
 ```
 
@@ -41,7 +47,7 @@ GitHub 若要求登入，使用瀏覽器登入或 Personal Access Token；不要
 推送完成後等 1–2 分鐘，打開：
 
 ```text
-https://你的GitHub帳號.github.io/
+https://ca1andppi-creator.github.io/
 ```
 
 看到測試頁面就代表網站已公開。
@@ -52,7 +58,7 @@ https://你的GitHub帳號.github.io/
 2. 輸入：
 
    ```text
-   https://你的GitHub帳號.github.io/
+   https://ca1andppi-creator.github.io/
    ```
 
 3. 選擇 HTML 檔案驗證。
@@ -69,7 +75,7 @@ https://你的GitHub帳號.github.io/
 7. 確認以下網址能直接開啟驗證檔內容：
 
    ```text
-   https://你的GitHub帳號.github.io/ahrefs_xxxxxxxx.html
+   https://ca1andppi-creator.github.io/ahrefs_xxxxxxxx.html
    ```
 
 8. 回到 Ahrefs 按 `Verify`。
